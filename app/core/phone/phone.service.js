@@ -7,7 +7,7 @@ angular.
       return $resource('phones/:phoneId.json', {}, {
         query: {
           method: 'GET',
-          params: {phoneId: 'phones'},
+          params: {phoneId: 'photos'},
           isArray: true
         }
       });
